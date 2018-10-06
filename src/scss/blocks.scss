@@ -1,0 +1,28 @@
+.tasks {
+    width: 30%;
+    height: auto;
+    margin: 50px auto;
+    &__wrapper{
+        border: 1px solid gray;
+    }
+    &__list{
+        color: grey;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+} 
+
+.tasks__item{
+        border-bottom: 1px solid gray;
+        padding: 0 10px;
+        text-align: left;
+        &:last-child{
+            border-bottom: 0;
+        }
+        &-remove{
+            margin-left: 0;
+        }     
+}
+

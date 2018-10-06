@@ -1,0 +1,7 @@
+@import "variables.scss";
+
+@mixin rule {
+     font-size: $mainSize;
+     font-family: $fontFamily;
+     color: hsl(random(360deg), random(100%), random(100%));
+}

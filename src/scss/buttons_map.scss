@@ -1,0 +1,73 @@
+@import "variables.scss";
+
+.box {
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+    &__button {
+        border: 2px solid grey;
+       
+        &-lg{
+            width: 100px;
+            height: 40px;
+            font-size: 12px;
+        }
+        &-md{
+            width: 60px;
+            height: 30px;
+            font-size: 10px;
+        }
+        &-sm{
+            width: 40px;
+            height: 20px;
+            font-size: 8px;
+        }
+    }
+}
+
+
+
+@for $i from 1 through 15 {
+    .box__button-sm:nth-child(#{$i}){
+        color: map-get($text-color, dark);
+        font-weight: map-get($font, weight);
+    }   
+};
+
+@for $i from 1 through 15 {
+    .box__button-lg:nth-child(#{$i}){
+        color: map-get($font, color);
+        font-weight: map-get($font, weight);
+    }   
+};
+
+@each $type, $color in (success, lightgreen),
+                        (info, lightblue),
+                        (warning, orange),
+                        (error, red),
+                        (def, white) {
+    .#{$type} {
+        background-color: $color;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

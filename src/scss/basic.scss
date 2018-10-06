@@ -1,0 +1,28 @@
+html, body {
+    padding: 0;
+    margin: 50px;
+    background-color: #fefefe;
+    color: #000000;
+}
+h2 {
+    color: red;
+}
+
+.first-btn {
+    font-size: 20px;
+    background-color: red;
+    color: #ffffff;
+    height: 40px;
+    padding: 0 30px; 
+    &:focus{
+       background: green; 
+    }
+    &:hover{
+        background: #000000;
+    }
+    &:active{
+        background: purple;
+    }
+}
+
+

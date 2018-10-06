@@ -1,0 +1,470 @@
+html, body {
+  padding: 0;
+  margin: 50px;
+  background-color: #fefefe;
+  color: #000000; }
+
+h2 {
+  color: red; }
+
+.first-btn {
+  font-size: 20px;
+  background-color: red;
+  color: #ffffff;
+  height: 40px;
+  padding: 0 30px; }
+  .first-btn:focus {
+    background: green; }
+  .first-btn:hover {
+    background: #000000; }
+  .first-btn:active {
+    background: purple; }
+
+.tasks {
+  width: 30%;
+  height: auto;
+  margin: 50px auto; }
+  .tasks__wrapper {
+    border: 1px solid gray; }
+  .tasks__list, .table__item {
+    color: grey;
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+
+.tasks__item {
+  border-bottom: 1px solid gray;
+  padding: 0 10px;
+  text-align: left; }
+  .tasks__item:last-child {
+    border-bottom: 0; }
+  .tasks__item-remove {
+    margin-left: 0; }
+
+.tasks {
+  width: 30%;
+  height: auto;
+  margin: 50px auto; }
+  .tasks__wrapper {
+    border: 1px solid gray; }
+  .tasks__list, .table__item {
+    color: grey;
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+
+.tasks__item {
+  border-bottom: 1px solid gray;
+  padding: 0 10px;
+  text-align: left; }
+  .tasks__item:last-child {
+    border-bottom: 0; }
+  .tasks__item-remove {
+    margin-left: 0; }
+
+.tasks__wrap {
+  width: 60%;
+  height: auto;
+  margin: 50px auto; }
+
+.table {
+  display: table;
+  border-spacing: 5px; }
+  .table__item {
+    width: 33%;
+    display: table-cell;
+    text-align: center;
+    padding: 3px;
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin-left: 5px; }
+    .table__item:hover {
+      background-color: lightgray; }
+
+.rules__item:nth-child(1) {
+  font-size: 15px;
+  color: #37a959; }
+
+.rules__item:nth-child(2) {
+  font-size: 16px;
+  color: #ef9a9e; }
+
+.rules__item:nth-child(3) {
+  font-size: 17px;
+  color: #020024; }
+
+.rules__item:nth-child(4) {
+  font-size: 18px;
+  color: #8fe6af; }
+
+.rules__item:nth-child(5) {
+  font-size: 19px;
+  color: #07535f; }
+
+.rules__item:nth-child(6) {
+  font-size: 20px;
+  color: #b91358; }
+
+.messenger {
+  width: 50%;
+  margin: 10px auto;
+  display: block; }
+  .messenger__item {
+    margin: 0 0 10px 0;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); }
+    .messenger__item:last-child {
+      margin: 0;
+      color: darkred; }
+    .messenger__item:last-child > p {
+      color: darkred; }
+    .messenger__item:last-child > h4 {
+      color: #000000; }
+  .messenger img {
+    height: 60px;
+    float: left;
+    vertical-align: middle; }
+  .messenger h4, .messenger p {
+    color: white;
+    width: 70%;
+    float: left;
+    margin-left: 60px;
+    padding: 0;
+    margin: 0; }
+
+.success {
+  height: 120px; }
+
+.info {
+  height: 70px; }
+
+.warning {
+  height: 120px; }
+
+.error {
+  height: 120px; }
+
+.def {
+  height: 180px; }
+
+.step {
+  width: 15px;
+  height: 15px;
+  background-color: orange; }
+
+.step-1 {
+  width: 30px;
+  height: 15px;
+  background-color: orange; }
+
+.step-2 {
+  width: 45px;
+  height: 15px;
+  background-color: orange; }
+
+.step-3 {
+  width: 60px;
+  height: 15px;
+  background-color: orange; }
+
+.step-4 {
+  width: 75px;
+  height: 15px;
+  background-color: orange; }
+
+.step-5 {
+  width: 90px;
+  height: 15px;
+  background-color: orange; }
+
+.step-6 {
+  width: 105px;
+  height: 15px;
+  background-color: orange; }
+
+.step-7 {
+  width: 120px;
+  height: 15px;
+  background-color: orange; }
+
+.step-8 {
+  width: 135px;
+  height: 15px;
+  background-color: orange; }
+
+.step-9 {
+  width: 150px;
+  height: 15px;
+  background-color: orange; }
+
+.step-10 {
+  width: 165px;
+  height: 15px;
+  background-color: orange; }
+
+.step-11 {
+  width: 180px;
+  height: 15px;
+  background-color: orange; }
+
+.step-12 {
+  width: 195px;
+  height: 15px;
+  background-color: orange; }
+
+.step-13 {
+  width: 210px;
+  height: 15px;
+  background-color: orange; }
+
+.step-14 {
+  width: 225px;
+  height: 15px;
+  background-color: orange; }
+
+.step-15 {
+  width: 240px;
+  height: 15px;
+  background-color: orange; }
+
+.step-16 {
+  width: 255px;
+  height: 15px;
+  background-color: orange; }
+
+.step-17 {
+  width: 270px;
+  height: 15px;
+  background-color: orange; }
+
+.step-18 {
+  width: 285px;
+  height: 15px;
+  background-color: orange; }
+
+.step-19 {
+  width: 300px;
+  height: 15px;
+  background-color: orange; }
+
+table {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  border-collapse: collapse; }
+
+.row {
+  height: 10px;
+  border: 1px solid grey; }
+
+.row-1 {
+  background-color: blue; }
+
+.row-2 {
+  background-color: yellow; }
+
+.row-3 {
+  background-color: blue; }
+
+.row-4 {
+  background-color: yellow; }
+
+.row-5 {
+  background-color: blue; }
+
+.row-5 {
+  background-color: black; }
+
+.row-6 {
+  background-color: yellow; }
+
+.row-7 {
+  background-color: blue; }
+
+.row-8 {
+  background-color: yellow; }
+
+.row-8 {
+  background-color: green; }
+
+.row-9 {
+  background-color: blue; }
+
+.row-10 {
+  background-color: yellow; }
+
+.row-10 {
+  background-color: black; }
+
+.row-11 {
+  background-color: blue; }
+
+.row-12 {
+  background-color: yellow; }
+
+.row-13 {
+  background-color: blue; }
+
+.row-14 {
+  background-color: yellow; }
+
+.row-15 {
+  background-color: blue; }
+
+.row-15 {
+  background-color: black; }
+
+.box {
+  width: 50%;
+  height: 100px;
+  margin: 0 auto; }
+  .box__button {
+    border: 2px solid grey; }
+    .box__button-lg {
+      width: 100px;
+      height: 40px;
+      font-size: 12px; }
+    .box__button-md {
+      width: 60px;
+      height: 30px;
+      font-size: 10px; }
+    .box__button-sm {
+      width: 40px;
+      height: 20px;
+      font-size: 8px; }
+
+.box__button-sm:nth-child(1) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(2) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(3) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(4) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(5) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(6) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(7) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(8) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(9) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(10) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(11) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(12) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(13) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(14) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-sm:nth-child(15) {
+  color: green;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(1) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(2) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(3) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(4) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(5) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(6) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(7) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(8) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(9) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(10) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(11) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(12) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(13) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(14) {
+  color: purple;
+  font-weight: 800; }
+
+.box__button-lg:nth-child(15) {
+  color: purple;
+  font-weight: 800; }
+
+.success {
+  background-color: lightgreen; }
+
+.info {
+  background-color: lightblue; }
+
+.warning {
+  background-color: orange; }
+
+.error {
+  background-color: red; }
+
+.def {
+  background-color: white; }

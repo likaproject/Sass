@@ -1,0 +1,49 @@
+@import "variables.scss";
+
+.messenger {
+    width: 50%;
+    margin: 10px auto;
+    display: block;
+    &__item {
+        margin: 0 0 10px 0;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0,0,0,.4);
+        &:last-child{
+            margin: 0;
+            color: map-get($text-color, danger);
+        }
+        &:last-child > p {
+            color:$error;
+        }
+        &:last-child > h4 {
+            color: #000000;
+        }
+    }
+    
+    img {
+        height: 60px;
+        float: left;
+        vertical-align: middle;
+    }
+    
+    h4 , p{
+        color: $def;
+        width: 70%;
+        float: left;
+        margin-left: 60px;
+        padding: 0;
+        margin: 0;
+    } 
+}
+    
+@each $type, $height in (success, $medium),
+                        (info, $small),
+                        (warning, $medium),
+                        (error, $medium),
+                        (def, $large){
+        .#{$type} {
+             height: $height;                   
+        }
+}
+

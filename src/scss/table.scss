@@ -1,0 +1,37 @@
+table {
+     width: 50%;
+     height: auto;
+     margin: 0 auto;
+     border-collapse: collapse;
+}
+    .row {
+        height: 10px; 
+        border: 1px solid grey;
+    }
+
+$row: row !default;
+
+@for $i from 1 through 15 {
+    @if ($i % 2 == 0){
+       .#{$row}-#{$i} {
+        background-color: yellow; 
+        } 
+    } @else {
+        .#{$row}-#{$i} {
+        background-color: blue;
+        }
+    } 
+    
+    @if ($i % 5 == 0){
+       .#{$row}-#{$i} {
+        background-color: black; 
+        } 
+    } 
+
+    @if ($i % 8 == 0){
+        .#{$row}-#{$i} {
+        background-color: green;
+        }
+    }
+}
+

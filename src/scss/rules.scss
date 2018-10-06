@@ -1,0 +1,11 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+//Using loop
+@for $i from 1 through 6 {
+    .rules__item:nth-child(#{$i}){
+        font-size: $mainSize + $i;
+        color: hsl(random(360deg), random(100%), random(100%));
+    }   
+}
+

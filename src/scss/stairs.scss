@@ -1,0 +1,17 @@
+@import "variables.scss";
+.step {
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+}
+
+$step: step !default;
+
+@for $i from 1 through 19 {
+    .#{$step}-#{$i}{
+         width: 15px + $i * 15px;
+         height: 15px;
+         background-color: orange;
+    }
+}
+    
